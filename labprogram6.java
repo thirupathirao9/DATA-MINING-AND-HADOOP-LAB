@@ -44,17 +44,15 @@ ll.set(2, (String) val + " Changed"); System.out.println("ll after change: " + l
 
 }
 
-Output:
+//Output:
 
-Original contents of ll: [A, A2, F, B, D, E, C, Z]
+//Original contents of ll: [A, A2, F, B, D, E, C, Z]
 
-Contents of ll after deletion: [A, A2, D, E, C, Z]
+//Contents of ll after deletion: [A, A2, D, E, C, Z]
 
-ll after deleting first and last: [A2, D, E, C]
+//ll after deleting first and last: [A2, D, E, C]ll after change: [A2, D, E Changed, C]
 
-ll after change: [A2, D, E Changed, C]
-
-b) Stacks
+//b) Stacks
 import java.util.*;
 
 public class StackDemo {
@@ -142,7 +140,7 @@ stack: [ ]
 
 pop -> empty stack
 
-c) Queues
+//c) Queues
 //	import java.util.LinkedList;
 
 import java.util.Queue; public class QueueExample
@@ -182,19 +180,19 @@ System.out.println("Size of queue-" + size);
 
 }
 
-Output:
+//Output:
 
-Elements of queue-[0, 1, 2, 3, 4]
+//Elements of queue-[0, 1, 2, 3, 4]
 
-removed element-0
+//removed element-0
 
-[1, 2, 3, 4]
+//[1, 2, 3, 4]
 
-head of queue-1
+//head of queue-1
 
-Size of queue-4
+//Size of queue-4
 
-d) Set
+//d) Set
 public class SetDemo {
 
 public static void main(String args[]) {
@@ -230,20 +228,20 @@ catch(Exception e){}
 
 }
 
-Output:
+//Output:
 
-[34, 22, 10, 60, 30]
+//[34, 22, 10, 60, 30]
 
-The sorted list is:
+//The sorted list is:
 
-[10, 22, 30, 34, 60]
+//[10, 22, 30, 34, 60]
 
-The First element of the set is: 10
+//The First element of the set is: 10
 
-The last element of the set is: 60
+//The last element of the set is: 60
 
-e) Map
-Program:
+//e) Map
+//Program:
 
 import java.awt.Color;
 
@@ -278,14 +276,14 @@ System.out.println(key + " : " + value);
 
 }
 
-Output:
+//Output:
 
-narayana : java.awt.Color[r=0,g=0,b=255]
+//narayana : java.awt.Color[r=0,g=0,b=255]
 
-sai : java.awt.Color[r=0,g=0,b=255]
+//sai : java.awt.Color[r=0,g=0,b=255]
 
-krishna : java.awt.Color[r=255,g=0,b=0]
+//krishna : java.awt.Color[r=255,g=0,b=0]
 
-Ram : java.awt.Color[r=0,g=255,b=0]
+//Ram : java.awt.Color[r=0,g=255,b=0]
 
 
