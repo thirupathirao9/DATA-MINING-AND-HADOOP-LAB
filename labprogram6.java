@@ -141,7 +141,7 @@ stack: [ ]
 pop -> empty stack
 
 //c) Queues
-//	import java.util.LinkedList;
+import java.util.LinkedList;
 
 import java.util.Queue; public class QueueExample
 {
